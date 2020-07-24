@@ -1,94 +1,331 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+	<head>
 
-.bgimg {
-  background : none;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: black;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
+		<title>Kachkad Narender</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
+				<!-- Intro -->
+					<section class="intro">
+						<header>
+							<h1>Kachkad Narender</h1>
+							<p>I don't stalk | I investigate 
+							<ul class="actions">
+								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<span class="image fill" data-position="center"><img src="images/pic01.jpg" alt="" /></span>
+						</div>
+					</section>
 
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+				<!-- Section -->
+					<section id="first">
+						<header>
+							<h2>root me</h2>
+						</header>
+						<div class="content">
+							<p>Dedicated, creative, and energetic professional currently in my third year of engineering. I am a fast learner, good communicator and I am always looking for ways to improve. I work well under pressure and always stick to deadlines. My main expertise is that I adapt very well and work well with people.</p>
+							<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+						</div>
+					</section>
 
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
-<body>
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>My Skills</h2>
+						</header>
+						<div class="content">
+							<p><strong>My area of expertise</strong> these are the various technical/life skills that I have picked up throughout the my time in college, internships, hackathons, and self-learning.</p>
+							<ul class="feature-icons">
+								<li class="icon solid fa-laptop">HTML, CSS Java Script</li>
+								<li class="icon solid fa-bolt">Google Cloud Platform </li>
+								<li class="icon solid fa-signal">Python, Bash Scripting</li>
+								<li class="icon solid fa-cog">Networking</li>
+								<li class="icon solid fa-map-marker-alt">Web Application Security</li>
+								<li class="icon solid fa-code">Photoshop</li>
+							</ul>
+							<p>All the skills mentioned here are the skills I am confident in, skills that I have come to master as a developer and designer, skills that I am comfortable mentoring anyone in.</p>
+						</div>
+					</section>
 
-<div class="bgimg">
-  <div class="topleft">
-    <p>Guess what it is?</p>
-  </div>
-  <div class="middle">
-    <h2>COMING SOON</h2>
-    <hr>
-    <p id="demo" style="font-size:30px"></p>
-  </div>
-  <div class="bottomleft">
-    <h2><b>Narender as -> devilhunt3rt</b></h2>
-  </div>
- 
-</div>
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>EXPERIENCE</h2>
+						</header>
+						<div class="content">
+							<p><strong>Integer mollis egestas</strong> nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
+					<h3>Computer Society of India</h3>
+				<ul class="alt">
+					<li><strong>Vice-President</strong></li>
+					<li><strong>Devspace/Codespace:</strong> Lead Designer</li>
+					<li><strong>Riddler:</strong> Lead Designer/Ideation</li>
+					<li><strong>Core Committee Selections:</strong> Designer</li>
+					<li><strong>Clickbait:</strong> Coordinator</li>
+					<li><strong>Devspace:</strong> Designer</li>
+					<li><strong>Riddler:</strong> Questions Team</li>
+					<li><strong>Send Codez:</strong> Winner</li>
+				</ul>
 
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("June 17, 2019 00:00:00").getTime();
+				<a href="https://csivit.com/" target="_blank">csivit.com</a>
+				<br>
+				<br>
+				<br>
+				<h3>Havells India Limited</h3>
+				<ul class="alt">
+					<li><strong>Internship</strong>, Noida</li>
+					<li>Learning, ethics, progress, and technological skills. These are just some of the advances I made
+						during my internship. In my time at Havells, a Fast Moving Electrical Goods Company with an
+						extremely strong global presence.</li>
+				</ul>
 
-// Update the count down every 1 second
-var countdownfunction = setInterval(function() {
 
-  // Get todays date and time
-  var now = new Date().getTime();
-  
-  // Find the distance between now an the count down date
-  var distance = countDownDate - now;
-  
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(countdownfunction);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
+					<div id="panel">
+					The technical skills imparted during the internship was in the field of Internet of Things, Cloud
+					Computing and Natural Language Processing. I worked on two major projects during my time here, the
+					first one being Havells’ friendly support bot, Ally. Before my time it was only deployed for the
+					product category of ‘fans’ now it has been deployed for almost all of the products that Havells
+					sells. The second one is a Multilingual Internal Google Action for fetching yours/your teams' sales
+					data of any given time period.
 
-</body>
+
+					<br>
+					<br>
+				</div>
+
+
+					<div id="flip">Read more</div>
+				<br>
+				<br>
+				<h3>CamCann SmartSystems Private Limited</h3>
+				<ul class="alt">
+					<li><strong>Design Head</strong></li>
+					<li>The basic idea at CamCann is to change the concept
+					of managing as well as viewing advertisements.
+					The way we project advertisements provides the viewer
+					with a much more interactive process.</li>
+					<li>The Unique SellingPoint at CamCann is turning the glasses
+					in the stores outside to working displays.
+					Also, providing the client to project advertisement
+					in all their stores with just one click.
+					We also provide analytics and demographics to the client
+					on the basis of the engagement to every advertisements.</li>
+					<br>
+					<a href="https://camcann.com/" target="_blank">camcann.com</a>
+				</ul>
+
+							<!-- Section -->
+								<section>
+									<!-- <header>
+										<h3>Erat aliquam</h3>
+										<p>Vehicula ultrices dolor amet ultricies et condimentum. Magna sed etiam consequat, et lorem adipiscing sed dolor sit amet, consectetur amet do eiusmod tempor incididunt  ipsum suspendisse ultrices gravida.</p>
+									</header> -->
+									<div class="content">
+										<div class="gallery">
+											<a href="images/gallery/fulls/01.jpg" class="landscape"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/02.jpg"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/03.jpg"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/04.jpg" class="landscape"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+										</div>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header>
+										<h2>My work</h2>
+										<!-- <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam sed facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet mauris. Ut magna finibus nisi nec lacinia ipsum maximus.</p> -->
+									</header>
+									<div class="content">
+
+				<p><strong>As someone </strong>who loves to learn, I present to you a glimpse of what I have done as a
+					designer/developer.</p>
+										<div class="gallery">
+											<a href="images/gallery/fulls/05.jpg" class="landscape"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/06.jpg"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/07.jpg"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+										</div>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header>
+										<h2>Education</h2>
+
+										<!-- <p>Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius sed enim lorem ullamcorper dolore.  ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.</p> -->
+									</header>
+									<div class="content">
+										<p><strong>University:</strong> after 12<sup>th</sup> I had realized my
+					passion lay with engineering, after a battery of gruesome entrance exams I am pursuing my B.Tech
+					in <i>Electronics and Communication Engineering with Specialization in Internet of Things and
+						Sensors.</i></p>
+				<h4>Lovely Professional University, Punjab</h4>
+				<div class="table-wrapper">
+					<table class="alt">
+						<tbody>
+							<tr>
+								<td colspan="2"><strong>B.tech CSE</strong> specialization in Cyber Security</td>
+								<td>2016 - 2020</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			<div class="content">
+				<p><strong>Schooling:</strong> initially started from Delhi Public School Vasant Kunj. Later in
+					5<sup>th</sup> grade when we shifted to Gurgaon, I continued at Shikshantar. Here I spent all my
+					remaining 7 school years.
+				</p>
+
+
+
+				<h4>Asifabad Model High School7</h4>
+				<div class="table-wrapper">
+					<table class="alt">
+						<tbody>
+							<tr>
+								<td colspan="2">SSC. 10<sup>th</sup> Grade Board Exams</td>
+								<td>88%</td>
+							</tr>
+							<tr>
+								<td colspan="2">I.S.C. 12<sup>th</sup> Grade Board Exams</td>
+								<td>89%</td>
+							</tr>
+							<tr>
+								<td colspan="2">I.S.C. 12<sup>th</sup> Grade Mathematics Board Exam</td>
+								<td>100%</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				</div>
+		<!-- </section>
+		</section> -->
+		<span hidden><input class="date" type="date" value="1998-06-17" />
+			<input class="time" type="time" value="23:32" /> </span>
+		<!-- <section> -->
+			<!-- <header> -->
+
+
+
+									<h2>Download my<br>resume</h2>
+			<!-- </header> -->
+			<div class="content">
+				<p><strong>Here is my resume</strong> this one is a little out of date as I am constantly doing new
+					things, I will update it after my next big achievement :P</p>
+				<ul class="actions">
+					<li><a href="#" target="_blank"
+							class="button primary icon fa-download">Download</a></li>
+					<li><a href="#" target="_blank" class="button icon fa-time">CSI-VIT's website</a>
+					</li>
+				</ul>
+			
+
+
+
+										<div class="gallery">
+											<a href="images/gallery/fulls/08.jpg" class="portrait"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/09.jpg" class="portrait"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
+											<a href="images/gallery/fulls/10.jpg" class="landscape"><img src="images/gallery/thumbs/10.jpg" alt="" /></a>
+										</div>
+									</div>
+								</section>
+
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>About My Company</h2>
+						</header>
+						<div class="content">
+							<p>'<strong>Kleen Security</strong> is an independent registered company of India which deals in core "Cyber Security", helping businesses protect themselves and their reputations against the very latest cyber threats and to train enthusiastic students to achieve good carrier in cybersecurity with placement assistance.'</p>
+							<ul class="actions">
+								<li><a href="#" class="button primary large">Company Profile</a></li>
+								<li><a href="https://kleensecurity.com/" class="button large">Company Website</a></li>
+							</ul>
+						</div>
+					</section>
+
+				
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>Get in touch</h2>
+						</header>
+						<div class="content">
+							<p><strong>Tell me</strong>  what is on your mind? Fill out this form and/or hit me up on my socials. I'll get back to you as soon as I can.</p>
+							<form>
+								<div class="fields">
+									<div class="field half">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="button primary" /></li>
+								</ul>
+							</form>
+						</div>
+						<footer>
+							<ul class="items">
+								<li>
+									<h3>Email</h3>
+									<a href="#">narender[dot]kleensecurity[dot]com</a>
+								</li>
+								<li>
+									<h3>Phone</h3>
+									<a href="#">+91 78887 72156</a>
+								</li>
+								<li>
+									<h3>Address</h3>
+									<span>PLOT NO 24, 1st FLOOR, Maharaja Colony Rd, Sikh Village, ROAD, Secunderabad, Telangana 500009</span>
+								</li>
+								<li>
+									<h3>Elsewhere</h3>
+									<ul class="icons">
+										<li><a href="https://twitter.com/KachkadNarender" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://www.facebook.com/kachkad.narender" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.instagram.com/devi1hunt3r/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://www.linkedin.com/in/kachkadnarender/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://github.com/devilhunt3r" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+										<li><a href="https://www.youtube.com/channel/UCVFGj4nX7xtPrVx7i_iHbyw" class="icon brands fa-youtube"><span class="label">Codepen</span></a></li>
+									</ul>
+								</li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Copyright -->
+					<div class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
+x
+	</body>
 </html>
